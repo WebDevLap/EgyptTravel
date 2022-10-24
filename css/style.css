@@ -571,6 +571,7 @@ body._lock {
   border-radius: 20px;
   text-align: center;
   margin: 7px;
+  flex-shrink: 1;
   max-width: 393px;
   padding-top: 45px;
   padding-bottom: 45px;
