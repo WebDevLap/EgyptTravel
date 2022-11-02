@@ -685,7 +685,7 @@ $black: #0B0614;
         }
         @media (max-width: 1015px){
             .footer__container{
-                justify-content: center;
+                justify-content: flex-start;
             }
         }
     }

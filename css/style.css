@@ -739,9 +739,9 @@ body._lock {
 }
 @media (max-width: 1015px) {
   .wrapper .footer .footer__container {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 }
 
