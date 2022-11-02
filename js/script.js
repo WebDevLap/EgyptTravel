@@ -6,7 +6,6 @@ const bodyElement = document.body
 document.addEventListener('click', function(event){
     const target = event.target.closest('.container__menu')
     const clickBurger = event.target.closest('.menu__icon')
-    console.log(clickBurger);
     
 
     if(!target){
@@ -24,7 +23,19 @@ document.addEventListener('click', function(event){
         bodyElement.classList.add('_lock')
         menuBody1.classList.add('_active')
     }
-
-    
 })
+
+
+document.addEventListener('click', function(event){
+    
+
+})
+
+
+
+
+
+
+
+
 
